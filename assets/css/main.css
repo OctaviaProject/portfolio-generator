@@ -6,11 +6,16 @@ body {
   padding-bottom: 40px;
   color: #5a5a5a;
   background-image: url("../textures/concrete_seamless/concrete_seamless.png");
+  font-family: 'Lato', sans-serif;
 }
 
 img {
   border-radius: 10%;
   max-height: 500px;
+}
+
+h1, h2 {
+  font-family: 'Varela Round', sans-serif;
 }
 
 /* CUSTOMIZE THE NAVBAR
