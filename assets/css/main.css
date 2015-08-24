@@ -16,6 +16,7 @@ img {
 
 h1, h2 {
   font-family: 'Varela Round', sans-serif;
+  color: #807EE6;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -65,9 +66,9 @@ h1, h2 {
 }
 
 .header-inner h1 {
-  font-size: 60px; 
+  font-size: 80px; 
   text-shadow: 2px 2px 10px #000;
-  color: white;
+  color: #EFF0C0;
 }
 
 /* MARKETING CONTENT
@@ -80,6 +81,7 @@ h1, h2 {
 }
 .marketing h2 {
   font-weight: normal;
+  color: #9B99FF;
 }
 .marketing .col-sm-4 p {
   margin-right: 10px;
