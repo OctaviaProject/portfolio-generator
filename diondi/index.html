@@ -1,29 +1,9 @@
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+---
+---
+{% include header.html %}
 
     <title>Diondi's portfolio</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <link href="../assets/css/main.css" rel="stylesheet">
-    <link href='//fonts.googleapis.com/css?family=Lato:300,700|Varela+Round' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    
     <style >
       .header {
         background-image: url("../assets/nebulae/n1.jpg");
@@ -86,7 +66,7 @@
 
       <div class="row featurette">
         <div class="col-md-5 col-md-push-7">
-          <h2 class="featurette-heading"> <br /><span class="text-muted"> </span></h2>
+          <h2 class="featurette-heading"> <br /></h2>
           <p class="lead">This is a different view of the 3D model I made of my future city.</p>
         </div>
         <div class="col-md-7 col-md-pull-5">
@@ -106,25 +86,21 @@
         </div>
       </div>
 
+      <div style="margin: 50px auto; text-align: center; width: 50%; color: #9B99FF; font-size: 1.4em;">
+        <button id="portfolio-index" class="btn btn-default" style="height: 50px; width: 40%; min-width: 180px;">
+          <span style="font-size: 1.4em; color: #807EE6;">Back to Portfolios</span>
+        </button>
+      </div>
+
+      <script>
+        var d = document.getElementById('portfolio-index')
+        d.addEventListener('click', function(){
+          window.location.href = '/portfolios/';
+        });
+      </script>
+
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
 
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2015 Octavia Project</p>
-      </footer>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
-  </body>
-</html>
-
+{% include footer.html %}
