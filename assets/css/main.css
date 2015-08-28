@@ -13,6 +13,14 @@ img {
   border-radius: 10%;
 }
 
+a {
+  color: #807EE6;
+}
+
+a:hover, a:visited {
+  color: #9B99FF;
+}
+
 h1, h2 {
   font-family: 'Varela Round', sans-serif;
 }
