@@ -1,0 +1,104 @@
+---
+---
+{% include header.html %}
+
+    <title>Sada's portfolio</title>
+
+    <style >
+      .header {
+        background-image: url("../assets/nebulae/Eagle nebula.png");
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <!-- Header 
+    ================================================== -->
+    <div class="header">
+      <div class="header-inner" role="listbox">
+        <h1>Sada</h1>
+      </div>
+    </div><!-- /.carousel -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider" style="margin:10px;">
+      
+      <p style="margin-bottom: 70px; color: #808080; font-size: 22px; font-style: italic;">Octavia Project participants 
+      completed a month-long workshop series where they brought their imaginary worlds to life in writings, drawings, 
+      maps, prints, sculptures, 3D models, online games, and wearable electronics.</p>
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <h2 class="featurette-heading">Block Printing<br /><span class="text-muted">Alien Plants</span></h2>
+          <p class="lead">My alien plant can detect the truth. I was inspired by the movie Avatar. The plant will 
+          shrivel up if you’re a liar, and it will extend outward if you’re truthful.</p>
+        </div>
+        <div class="col-md-7">
+          <img class="featurette-image img-responsive center-block" src="Ishey_twine4.png" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5 col-md-push-7">
+          <h2 class="featurette-heading">Clay Modeling<br /><span class="text-muted">Alien Cities</span></h2>
+          <p class="lead">This project design came from my alien plant world. I drew the plant of truth and the 
+          culture that might go with it.  </p>
+        </div>
+        <div class="col-md-7 col-md-pull-5">
+          <img class="featurette-image img-responsive center-block" src="Isheyana_wearables_joined.png" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <h2 class="featurette-heading"> <br /><span class="text-muted"> </span></h2>
+          <p class="lead">This is another view of my clay model.</p>
+        </div>
+        <div class="col-md-7">
+          <img class="featurette-image img-responsive center-block" src="Isheyana_prints_joined.png" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5 col-md-push-7">
+          <h2 class="featurette-heading">Photographing NYC<br /><span class="text-muted">Alien Imagery</span></h2>
+          <p class="lead">My alien plant inspired my photography. I found a tree in real life that reminded me of 
+          the Tree of Hope, to symbolize hope and strength to the people of my alien culture. </p>
+        </div>
+        <div class="col-md-7 col-md-pull-5">
+          <img class="featurette-image img-responsive center-block" src="isheyana3d.jpg" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+
+      <div style="margin: 50px auto; text-align: center; width: 50%; color: #9B99FF; font-size: 1.4em;">
+        <button id="portfolio-index" class="btn btn-default" style="height: 50px; width: 40%; min-width: 180px;">
+          <span style="font-size: 1.4em; color: #807EE6;">Back to Portfolios</span>
+        </button>
+      </div>
+
+      <script>
+        var d = document.getElementById('portfolio-index')
+        d.addEventListener('click', function(){
+          window.location.href = '/portfolios/';
+        });
+      </script>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+{% include footer.html %}
