@@ -71,13 +71,15 @@
       </div>
 
       <div style="margin: 50px auto; text-align: center; width: 50%; color: #9B99FF; font-size: 1.4em;">
-        <button id="octavia-index" class="btn btn-default" style="height: 50px; width: 40%; min-width: 300px;">
+        <button id="octavia-index" class="btn btn-default" style="height: 50px; width: 40%; min-width: 330px;">
           <span style="font-size: 1.4em; color: #807EE6;">Learn more about the Octavia Project</span>
         </button>
       </div>
 
-        var d = document.getElementById('octavia-index')
+      <script>
+        var d = document.getElementById('octavia-index');
         d.addEventListener('click', function(){
           window.location.href = '/';
         });
+      </script>
 {% include footer.html %}
