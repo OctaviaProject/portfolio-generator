@@ -1,0 +1,67 @@
+---
+---
+{% include header.html %}
+
+    <title>Octavia Project Games</title>
+
+  </head>
+  <body>
+
+    <!-- Header 
+    ================================================== -->
+    <div class="header">
+      <div class="header-inner" role="listbox">
+        <h1>Octavia Project Games</h1>
+      </div>
+    </div><!-- /.carousel -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- START THE FEATURETTES -->
+      <div class="row">
+        <div class="col-sm-4">
+          <h2>Diondi</h2>
+          <p><a class="btn btn-default" href="diondi/index.html" role="button">Play twine game &raquo;</a></p>
+        </div>
+        
+        <div class="col-sm-4">
+          <h2>Naya</h2>
+          <p><a class="btn btn-default" href="naya/index.html" role="button">Play twine game &raquo;</a></p>
+        </div>
+        
+        <div class="col-sm-4">
+          <h2>Isheyana</h2>
+          <p><a class="btn btn-default" href="isheyana/index.html" role="button">Play twine game &raquo;</a></p>
+        </div>
+        
+        <div class="col-sm-4">
+          <h2>Osariemen</h2>
+          <p><a class="btn btn-default" href="osas/index.html" role="button">Play twine game &raquo;</a></p>
+        </div>
+        
+        <div class="col-sm-4">
+          <h2>Sada</h2>
+          <p><a class="btn btn-default" href="sada/index.html" role="button">Play twine game &raquo;</a></p>
+        </div>
+        
+        <div class="col-sm-4">
+          <h2>Samori</h2>
+          <p><a class="btn btn-default" href="samori/index.html" role="button">Play twine game &raquo;</a></p>
+        </div>
+        
+      </div>
+
+      <div style="margin: 50px auto; text-align: center; width: 50%; color: #9B99FF; font-size: 1.4em;">
+        <button id="octavia-index" class="btn btn-default" style="height: 50px; width: 40%; min-width: 350px;">
+          <span style="font-size: 1.4em; color: #807EE6;">Learn more about the Octavia Project</span>
+        </button>
+      </div>
+
+      <script>
+        var d = document.getElementById('octavia-index');
+        d.addEventListener('click', function(){
+          window.location.href = '/';
+        });
+      </script>
+{% include footer.html %}
