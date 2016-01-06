@@ -77,7 +77,7 @@ h1, h2 {
   color: #EFF0C0;
 }
 
-.mini-header h1 {
+.header-inner .mini-header h1 {
   font-size: 4em;
 }
 
