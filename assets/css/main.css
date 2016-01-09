@@ -61,7 +61,7 @@ h1, h2 {
   margin-top: -20px;
   /* background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="); */
   background-image: url("../nebulae/n1.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   text-align: center;
 }
 
