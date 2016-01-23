@@ -68,22 +68,5 @@
         
       </div>
 
-
-      <div class="hidden-xs hidden-sm" style="margin: 50px auto; text-align: center; color: #9B99FF;">
-        <button id="octavia-index" class="btn btn-default btn-lg" style="height: 50px; color: #807EE6;">
-          Learn more about the Octavia Project
-        </button>
-     </div>
-     <div class="visible-xs-block visible-sm-block" style="margin: 25px auto; text-align: center; color: #9B99FF;">
-        <button id="octavia-index" class="btn btn-default" style="height: 50px; color: #807EE6;">
-          Learn more about the Octavia Project
-        </button>
-      </div>
-
-      <script>
-        var d = document.getElementById('octavia-index');
-        d.addEventListener('click', function(){
-          window.location.href = '/';
-        });
-      </script>
+{% include learn-more-button.html %}
 {% include footer.html %}
